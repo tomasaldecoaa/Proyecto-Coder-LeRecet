@@ -1,0 +1,148 @@
+/* GENERAL */
+body {
+    background-color: cornsilk;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    justify-content: center;
+    align-items: center;
+    color: black;
+    text-decoration: none;
+}
+
+li {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+
+/* BARRA NAVEGACION */
+/* .nav-list {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.nav-list ul,
+.nav-list ol {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.nav-list a {
+    text-decoration: none;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .list-header {
+    display: flex;
+    gap: 20px;
+    justify-content: center; */
+/* } */
+
+/* INDEX */
+
+.info-oriental {
+    text-align: center;
+}
+
+.tipicos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* RECETAS */
+.title-recet {
+    align-items: center;
+    text-align: center;
+}
+
+.descripcion {
+    align-items: center;
+    text-align: center;
+}
+
+/* PREPARACION */
+
+/* RESTAURANTES */
+.imagen-resta {
+    display: flex;
+    justify-content: space-between;
+}
+
+.catalogo {
+    text-align: start;
+    justify-content: baseline;
+}
+
+.frase-central {
+    text-align: center;
+}
+
+/* PROGRAMAS */
+.videoss {
+    display: flex;
+    justify-content: center;
+}
+
+.info {
+    justify-content: center;
+    display: flex;
+}
+
+.chef {
+    text-align: center;
+}
+
+.icons {
+    text-align: start;
+}
+
+/* FOOTER */
+.tex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+
+/* .slider {
+    aspect-ratio: 10 / 16;
+    width: 300px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    overflow: scroll;
+    scroll-snap-type: x mandatory;
+} 
+
+.slider img {
+    width: 100%;
+    left: 0;
+    position: sticky;
+    object-fit: cover;
+    border-radius: 5px;
+    scroll-snap-align: center;
+} */
+
+
+
