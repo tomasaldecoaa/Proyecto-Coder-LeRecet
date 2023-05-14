@@ -1,6 +1,6 @@
 /* GENERAL */
 body {
-    background-color: cornsilk;
+    background-color: lemonchiffon;
 }
 
 h2 {
@@ -22,70 +22,75 @@ li {
 }
 
 
-/* BARRA NAVEGACION */
-/* .nav-list {
-    display: flex;
-    gap: 20px;
-    justify-content: center;
-}
-
-.nav-list ul,
-.nav-list ol {
-    list-style-type: none;
-    text-decoration: none;
-}
-
-.nav-list a {
-    text-decoration: none;
-}
-
-.header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.header .list-header {
-    display: flex;
-    gap: 20px;
-    justify-content: center; */
-/* } */
-
 /* INDEX */
 
 .info-oriental {
     text-align: center;
 }
 
-.tipicos {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.scale-up-vertical-center {
+    animation: scale-up-vertical-center 0.4s
+}
+
+@keyframes scale-up-vertical-center {
+    0% {
+        transform: scaleY(.2)
+    }
+
+    100% {
+        transform: scaleY(1)
+    }
 }
 
 /* RECETAS */
-.title-recet {
-    align-items: center;
-    text-align: center;
+
+.tracking-in-expand-forward-top {
+    animation: tracking-in-expand-forward-top 0.4s linear both
 }
 
-.descripcion {
-    align-items: center;
-    text-align: center;
+@keyframes tracking-in-expand-forward-top {
+    0% {
+        letter-spacing: -.2em;
+        transform: translateZ(-700px) translateY(-100px);
+        opacity: 0
+    }
+
+    40% {
+        opacity: .6
+    }
+
+    100% {
+        transform: translateZ(0) translateY(0);
+        opacity: 1
+    }
 }
+
 
 /* PREPARACION */
 
 /* RESTAURANTES */
-.imagen-resta {
-    display: flex;
-    justify-content: space-between;
+
+.scale-up-top {
+    animation: scale-up-top 0.4s;
 }
 
-.catalogo {
+@keyframes scale-up-top {
+    0% {
+        transform: scale(.5);
+        transform-origin: center top
+    }
+
+    100% {
+        transform: scale(1);
+        transform-origin: center top
+    }
+}
+
+
+/* .catalogo {
     text-align: start;
     justify-content: baseline;
-}
+} */
 
 .frase-central {
     text-align: center;
@@ -110,6 +115,39 @@ li {
     text-align: start;
 }
 
+.tracking-in-expand {
+    animation: tracking-in-expand 0.4s linear both
+}
+
+@keyframes tracking-in-expand {
+    0% {
+        letter-spacing: -.2em;
+        opacity: 0
+    }
+
+    40% {
+        opacity: .6
+    }
+
+    100% {
+        opacity: 1
+    }
+}
+
+.shadow-drop-center {
+    animation: shadow-drop-center 0.4s linear both
+}
+
+@keyframes shadow-drop-center {
+    0% {
+        box-shadow: 0 0 0 0 transparent
+    }
+
+    100% {
+        box-shadow: 0 0 20px 0 rgba(255, 255, 255, .55)
+    }
+}
+
 /* FOOTER */
 .tex {
     display: flex;
@@ -127,25 +165,3 @@ li {
 .footer {
     background-color: aliceblue;
 }
-
-/* .slider {
-    aspect-ratio: 10 / 16;
-    width: 300px;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    overflow: scroll;
-    scroll-snap-type: x mandatory;
-} 
-
-.slider img {
-    width: 100%;
-    left: 0;
-    position: sticky;
-    object-fit: cover;
-    border-radius: 5px;
-    scroll-snap-align: center;
-} */
-
-
-
