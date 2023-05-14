@@ -1,6 +1,6 @@
-/* GENERAL */
+/*# sourceMappingURL=styles.css.map */
 body {
-    background-color: lemonchiffon;
+    background-color: lemonchiffon
 }
 
 h2 {
@@ -21,9 +21,6 @@ li {
     list-style-type: none;
 }
 
-
-/* INDEX */
-
 .info-oriental {
     text-align: center;
 }
@@ -41,8 +38,6 @@ li {
         transform: scaleY(1)
     }
 }
-
-/* RECETAS */
 
 .tracking-in-expand-forward-top {
     animation: tracking-in-expand-forward-top 0.4s linear both
@@ -65,11 +60,6 @@ li {
     }
 }
 
-
-/* PREPARACION */
-
-/* RESTAURANTES */
-
 .scale-up-top {
     animation: scale-up-top 0.4s;
 }
@@ -86,17 +76,11 @@ li {
     }
 }
 
-
-/* .catalogo {
-    text-align: start;
-    justify-content: baseline;
-} */
-
 .frase-central {
     text-align: center;
 }
 
-/* PROGRAMAS */
+
 .videoss {
     display: flex;
     justify-content: center;
@@ -148,8 +132,6 @@ li {
     }
 }
 
-/* CONTACTO */
-
 .rotate-diagonal-right {
     animation: rotate-diagonal-right 0.4s;
 }
@@ -168,7 +150,6 @@ li {
     }
 }
 
-/* FOOTER */
 .tex {
     display: flex;
     align-items: center;

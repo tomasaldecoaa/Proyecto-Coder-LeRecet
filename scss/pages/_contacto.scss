@@ -1,0 +1,17 @@
+.rotate-diagonal-right {
+    animation: rotate-diagonal-right 0.4s;
+}
+
+@keyframes rotate-diagonal-right {
+    0% {
+        transform: rotate3d(1, 1, 0, 0deg)
+    }
+
+    50% {
+        transform: rotate3d(1, 1, 0, -180deg)
+    }
+
+    100% {
+        transform: rotate3d(1, 1, 0, -360deg)
+    }
+}

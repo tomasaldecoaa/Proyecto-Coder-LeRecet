@@ -1,0 +1,17 @@
+.info-oriental {
+    text-align: center;
+}
+
+.scale-up-vertical-center {
+    animation: scale-up-vertical-center 0.4s
+}
+
+@keyframes scale-up-vertical-center {
+    0% {
+        transform: scaleY(.2)
+    }
+
+    100% {
+        transform: scaleY(1)
+    }
+}

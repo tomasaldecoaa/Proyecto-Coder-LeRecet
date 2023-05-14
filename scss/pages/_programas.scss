@@ -1,0 +1,50 @@
+.videoss {
+    display: flex;
+    justify-content: center;
+}
+
+.info {
+    justify-content: center;
+    display: flex;
+}
+
+.chef {
+    text-align: center;
+}
+
+.icons {
+    text-align: start;
+}
+
+.tracking-in-expand {
+    animation: tracking-in-expand 0.4s linear both
+}
+
+@keyframes tracking-in-expand {
+    0% {
+        letter-spacing: -.2em;
+        opacity: 0
+    }
+
+    40% {
+        opacity: .6
+    }
+
+    100% {
+        opacity: 1
+    }
+}
+
+.shadow-drop-center {
+    animation: shadow-drop-center 0.4s linear both
+}
+
+@keyframes shadow-drop-center {
+    0% {
+        box-shadow: 0 0 0 0 transparent
+    }
+
+    100% {
+        box-shadow: 0 0 20px 0 rgba(255, 255, 255, .55)
+    }
+}
