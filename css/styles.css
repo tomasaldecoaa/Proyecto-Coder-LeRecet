@@ -124,6 +124,9 @@ li {
     gap: 8px;
 }
 
+.footer {
+    background-color: aliceblue;
+}
 
 /* .slider {
     aspect-ratio: 10 / 16;
